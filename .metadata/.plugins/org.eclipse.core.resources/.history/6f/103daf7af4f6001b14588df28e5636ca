@@ -8,8 +8,6 @@ public class exercise_3_3 {
 		
 		System.out.println("食べ物の名前を入力");
 		String food = new java.util.Scanner(System.in).nextLine();
-		
-		System.out.println("こんにちは");
 	}
 
 }
