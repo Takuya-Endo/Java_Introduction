@@ -19,9 +19,9 @@ public class exercise_3_1 {
 			System.out.println("③true");
 		}
 		
-		String name = "湊";
-		if (name.equals("湊")) {
-			System.out.println("④true");
+		int age = 33;
+		if (age % 2 != 0) {
+			System.out.println("③true");
 		}
 		
 	}
