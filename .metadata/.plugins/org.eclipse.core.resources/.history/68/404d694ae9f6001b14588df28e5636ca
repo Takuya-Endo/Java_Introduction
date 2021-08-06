@@ -13,8 +13,7 @@ public class exercise_2_3 {
 		
 		int age = Integer.parseInt(ageString);
 		
-		int fortune = new java.util.Random().nextInt(4);	//fortuneは0～3の乱数
-		++fortune;											//fortuneは1～4の乱数
+		int fortune = new java.util.Random().nextInt(4);
 	}
 
 }
