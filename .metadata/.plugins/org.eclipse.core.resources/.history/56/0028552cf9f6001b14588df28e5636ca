@@ -12,16 +12,16 @@ public class exercise_3_5 {
 				System.out.println("検索します");
 				break;
 			
-			case 2:
-				System.out.println("登録します");
+			case 1:
+				System.out.println("検索します");
 				break;
 				
-			case 3:
-				System.out.println("削除します");
+			case 1:
+				System.out.println("検索します");
 				break;
 				
-			case 4:
-				System.out.println("更新します");
+			case 1:
+				System.out.println("検索します");
 				break;
 		
 		}
