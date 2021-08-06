@@ -11,7 +11,7 @@ public class exercise_2_3 {
 		System.out.println("あなたの年齢を入力してください");
 		String ageString = new java.util.Scanner(System.in).nextLine();
 		
-		int age = Integer.parseInt(ageString);
+		int age = (int) ageString;
 	}
 
 }
