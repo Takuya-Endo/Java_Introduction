@@ -14,12 +14,8 @@ public class exercise_3_6 {
 			if (ans == num) {
 				System.out.println("アタリ！");
 				break;
-			} else {
-				System.out.println("違います");
 			}
 		}
-		
-		System.out.println("ゲームを終了します");
 	}
 
 }
