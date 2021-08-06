@@ -7,7 +7,7 @@ public class exercise_2_3 {
 		
 		String name = new java.util.Scanner(System.in).nextLine();
 		
-//		System.out.println(name);
+		System.out.println(name);
 	}
 
 }
