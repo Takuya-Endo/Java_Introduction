@@ -8,6 +8,9 @@ public class Cleric {
 	int mp = 10;
 	final int MAX_MP = 10;
 	
-	
+	public void selfAid() {
+		this.mp -= 5;
+		this.hp = MAX_HP;
+	}
 	
 }
