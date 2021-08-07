@@ -21,11 +21,10 @@ public class exercise_4_1 {
 		
 		String[] names = {"A", "B", "C"};
 		
-		
 		System.out.println(points[1]);
-		System.out.println(weights[1]);
-		System.out.println(answers[1]);
-		System.out.println(names[1]);
+		System.out.println(points[1]);
+		System.out.println(points[1]);
+		System.out.println(points[1]);
 		
 	}
 

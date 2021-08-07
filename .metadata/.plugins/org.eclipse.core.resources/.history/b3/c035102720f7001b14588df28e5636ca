@@ -17,15 +17,7 @@ public class exercise_4_1 {
 		weights[3] = 4.4;
 		weights[4] = 5.5;
 		
-		boolean[] answers = new boolean[] {true, false, true};
-		
-		String[] names = {"A", "B", "C"};
-		
-		
-		System.out.println(points[1]);
-		System.out.println(weights[1]);
-		System.out.println(answers[1]);
-		System.out.println(names[1]);
+		boolean[] answers = new boolean[3];
 		
 	}
 
