@@ -9,10 +9,6 @@ public class exercise_4_2 {
 			System.out.println(moneyList[i]);					
 		}
 		
-		for (int moneyElement : moneyList) {
-			System.out.println(moneyElement);
-		}
-		
 	}
 
 }

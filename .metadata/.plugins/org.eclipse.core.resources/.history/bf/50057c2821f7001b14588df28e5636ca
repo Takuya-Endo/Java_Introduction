@@ -1,0 +1,14 @@
+
+public class exercise_4_2 {
+	
+	public static void main(String[] args) {
+		
+		int[] monyeList = {121_902, 8_302, 55_100};
+		
+		for (i = 0; i < 10; i++) {
+			
+		}
+		
+	}
+
+}
