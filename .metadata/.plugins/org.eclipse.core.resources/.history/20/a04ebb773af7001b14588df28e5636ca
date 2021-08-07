@@ -15,4 +15,8 @@ public class Kouhan {
 		Zenhan.doTogame();	//もう一度、とがめる
 	}
 	
+//	public static void sleep(long millis) throws InterruptedException {
+//		
+//	}
+	
 }
