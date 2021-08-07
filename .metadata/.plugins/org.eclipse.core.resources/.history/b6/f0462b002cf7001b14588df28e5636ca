@@ -4,13 +4,10 @@ public class exercise_5_3 {
 	public static void main(String[] args) {
 		
 		String title = "挨拶メール";
-		String address = "example-1@email.com";
+		String address = "example@email.com";
 		String text = "こんにちは。";
-		email(title, address, text);
 		
-		address = "example-2@email.com";
-		text = "こんばんは。";
-		email(address, text);
+		email(title, address, text);
 		
 	}
 	

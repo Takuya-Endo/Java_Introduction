@@ -8,8 +8,8 @@ public class exercise_5_3 {
 		String text = "こんにちは。";
 		email(title, address, text);
 		
-		address = "example-2@email.com";
-		text = "こんばんは。";
+		String address = "example-2@email.com";
+		String text = "こんばんは。";
 		email(address, text);
 		
 	}
