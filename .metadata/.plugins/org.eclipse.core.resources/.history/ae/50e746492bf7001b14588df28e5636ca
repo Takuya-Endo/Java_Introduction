@@ -3,11 +3,7 @@ public class exercise_5_2 {
 	
 	public static void main(String[] args) {
 		
-		String title = "挨拶メール";
-		String address = "example@email.com";
-		String text = "こんにちは。";
-		
-		email(title, address, text);
+		email();
 		
 	}
 	
