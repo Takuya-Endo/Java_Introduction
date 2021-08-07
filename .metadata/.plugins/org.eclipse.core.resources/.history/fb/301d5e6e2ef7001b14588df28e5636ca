@@ -1,0 +1,20 @@
+
+public class exercise_5_4 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("三角形の底辺の長さが");
+		
+		
+		System.out.println("三角形の底辺の長さが");
+	}
+	
+	public static double calcTriangleArea(double bottom, double height) {
+		return (bottom * height) / 2;
+	}
+	
+	public static void calcCircleArea() {
+		
+	}
+
+}
