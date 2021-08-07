@@ -15,6 +15,5 @@ INDEX VERSION 1.131+C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction\.met
 2486759847.index
 257098373.index
 4123107687.index
-1023358580.index
 1664843938.index
 374065338.index
