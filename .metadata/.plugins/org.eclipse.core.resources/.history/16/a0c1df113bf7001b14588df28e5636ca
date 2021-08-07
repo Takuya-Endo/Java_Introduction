@@ -10,10 +10,7 @@ public class Kouhan {
 		System.out.println("飛車さん、角さん。もういいでしょう。");
 		System.out.println("この紋所が目にはいらぬか！");
 		
-		//java.langパッケージに属するクラスは自動的にインポートされる
-		//　↓
-	  //java.lang.Thread.sleep(3000);	//API使用
-				  Thread.sleep(3000);
+		java.lang.Thread.sleep(3000);	//API使用
 		
 		Zenhan.doTogame();	//もう一度、とがめる
 	}
