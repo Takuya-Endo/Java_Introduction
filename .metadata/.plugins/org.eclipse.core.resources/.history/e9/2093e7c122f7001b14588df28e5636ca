@@ -10,7 +10,6 @@ public class exercise_4_4 {
 		for (int number : numbers) {
 			if (number == input) {
 				System.out.println("アタり！");
-				break;
 			}			
 		}
 		

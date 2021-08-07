@@ -8,9 +8,8 @@ public class exercise_4_4 {
 		int input = new java.util.Scanner(System.in).nextInt();
 		
 		for (int number : numbers) {
-			if (number == input) {
-				System.out.println("アタり！");
-				break;
+			if () {
+				System.out.println();
 			}			
 		}
 		
