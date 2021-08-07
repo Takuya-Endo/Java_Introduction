@@ -13,4 +13,21 @@ public class Cleric {
 		this.hp = MAX_HP;
 	}
 	
+	public int pray(int praySecond) {
+		
+		int recoveryAmount = praySecond + new java.util.Random().nextInt(3);
+		
+		if ((this.mp + recoveryAmount) <= MAX_MP) {
+			
+			this.mp += recoveryAmount;			
+			return this.mp;
+			
+		} else {
+			
+			return MAX_MP;
+			
+		}
+		
+	}
+	
 }
