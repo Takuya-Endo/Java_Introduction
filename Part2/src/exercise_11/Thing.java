@@ -3,6 +3,6 @@ package exercise_11;
 public interface Thing {
 	
 	public abstract double getWeight();
-	public abstract double setWeight();
+	public abstract void setWeight(double weight);
 	
 }
