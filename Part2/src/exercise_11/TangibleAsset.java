@@ -1,6 +1,6 @@
 package exercise_11;
 
-public abstract class TangibleAsset {
+public abstract class TangibleAsset implements Asset {
 
 	String name;
 	int price;
