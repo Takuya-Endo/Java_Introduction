@@ -8,15 +8,18 @@ public class PoisonMatango extends Matango {
 
 //	public Matango(char suffix) {
 //		this.suffix = suffix;
-//	}
+//	}	※コンストラクタは継承されない
+//	↓　this()のように親クラスのコンストラクタを呼び出す必要がある
 	public PoisonMatango(char suffix) {
 		super(suffix);
 	}
 	
 	public void attack(Hero h) {
-		System.out.println("キノコ" + this.suffix + "の攻撃");
-		System.out.println("10のダメージ");
-		h.hp -= 10;
+	  //super.attack(Hero h);//×
+		super.attack(h);     //型はつけない
+		//System.out.println("キノコ" + this.suffix + "の攻撃");
+		//System.out.println("10のダメージ");
+		//h.hp -= 10;
 		
 		if (this.poisonAttackLimit > 0) {
 			System.out.println("さらに毒の胞子をばらまいた！");
