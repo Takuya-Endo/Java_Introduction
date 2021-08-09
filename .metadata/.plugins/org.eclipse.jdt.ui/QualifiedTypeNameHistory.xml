@@ -5,4 +5,6 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction"/>
     <fullyQualifiedTypeName name="comment.Zenhan"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="exercise_11.TangibleAsset"/>
+    <fullyQualifiedTypeName name="exercise_11.IntangibleAsset"/>
 </qualifiedTypeNameHistroy>
