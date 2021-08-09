@@ -6,7 +6,12 @@ public class exercise14_1 {
 		
 		BankAccount a = new BankAccount("4649", 1592);
 		
-		System.out.println(a);	
+		System.out.println(a);
+		
+		String inputAccount = " 4649";
+		
+		a.checkAccount(inputAccount);
+		
 	}
 
 }

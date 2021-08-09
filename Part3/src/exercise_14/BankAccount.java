@@ -17,5 +17,15 @@ public class BankAccount {
 		return "\\" + this.balance + "（口座番号：" + this.accountNumber + "）";
 		
 	}
+	
+	public void checkAccount(String inputAccount) {
+		
+		if (this.accountNumber.equals(inputAccount.trim())) {
+			System.out.println("等価である");
+		} else {
+			System.out.println("等価でない");
+		}
+		
+	}
 
 }
