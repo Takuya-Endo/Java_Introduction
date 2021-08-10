@@ -12958,3 +12958,471 @@ java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Objec
 	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
 	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:05:13.725
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:05:13.732
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:05:13.738
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:05:13.744
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:05:14.404
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:05:14.427
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:07:31.540
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:07:31.546
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:07:31.553
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:07:31.559
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:07:32.170
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:07:32.176
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:07:42.075
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:07:42.081
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:07:42.088
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:07:42.094
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:07:42.965
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:07:42.972
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:08:26.762
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:08:26.768
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:08:26.775
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:08:26.782
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:08:27.383
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:08:27.389
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:10:41.535
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:10:41.542
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:10:41.549
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:10:41.556
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:10:42.339
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:10:42.345
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:16:59.608
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:16:59.614
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.contains(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processCreated(LiveProcessTracker.java:75)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:16:59.621
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:16:59.627
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedHashMap.remove(Object)" because "this.configs" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveAndDeadProcessTracker.processCreated(LiveAndDeadProcessTracker.java:94)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:86)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2021-08-11 05:17:00.305
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-08-11 05:17:00.330
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
