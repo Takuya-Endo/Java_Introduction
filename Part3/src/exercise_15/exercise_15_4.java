@@ -12,7 +12,7 @@ public class exercise_15_4 {
 		
 		Date now = new Date();
 		String nowString = dateFormat.format(now);
-		System.out.println("現在の日時は" + nowString);
+		System.out.println("現在の日付は" + nowString);
 		
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(now);
