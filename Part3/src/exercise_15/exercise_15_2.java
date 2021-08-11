@@ -4,19 +4,15 @@ public class exercise_15_2 {
 	
 	public static void main(String[] args) {
 		
-//		String folder = "c:\\javadev";
-		String folder = "c:\\user\\";
+		String folder = "c:\\javadev";
+//		String folder = "c:\\user\\";
 		String file = "readme.txt";
 		
-		System.out.println(folder);
-		
-//		System.out.println("\\".matches("\\"));
-		
-//		if (folder.matches(".*\\$")) {
-//			System.out.println(folder + file);
-//		} else {
-//			System.out.println(folder + "\\" + file);
-//		}
+		if (folder.endsWith("\\")) {
+			System.out.println(folder + file);
+		} else {
+			System.out.println(folder + "\\" + file);
+		}
 		
 		
 		System.out.println("abc".matches(".*")); //全ての文字列
