@@ -11,5 +11,9 @@ public class Hero {
 	public String getName() {
 		return this.name;
 	}
+	
+	public String toString() {
+		return this.name;
+	}
 
 }
