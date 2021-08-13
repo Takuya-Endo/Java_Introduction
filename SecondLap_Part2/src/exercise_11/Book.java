@@ -1,6 +1,6 @@
 package exercise_11;
 
-public class Book {
+public class Book extends TangibleAsset {
 	
 	String name;
 	int price;

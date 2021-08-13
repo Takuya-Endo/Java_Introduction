@@ -1,6 +1,6 @@
 package exercise_11;
 
-public class Computer {
+public class Computer extends TangibleAsset {
 	
 	String name;
 	int price;
