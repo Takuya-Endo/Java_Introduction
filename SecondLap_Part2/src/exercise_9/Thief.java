@@ -2,8 +2,22 @@ package exercise_9;
 
 public class Thief {
 	
-	String name;
-	int hp;
-	int mp;
+	private String name;
+	private int hp;
+	private int mp;
 
+	public Thief(String name, int hp, int mp) {
+		this.name = name;
+		this.hp = hp;
+		this.mp = mp;
+	}
+	
+	public Thief(String name, int hp) {
+		this(name, hp, 5);
+	}
+	
+	public Thief(String name) {
+		this(name, 40, 5);
+	}
+	
 }
