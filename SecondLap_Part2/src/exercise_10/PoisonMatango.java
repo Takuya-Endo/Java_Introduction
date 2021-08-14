@@ -1,5 +1,7 @@
 package exercise_10;
 
+import exercise_8.Character;
+
 public class PoisonMatango extends Matango {
 	
 	private int attackableTimes;
@@ -9,18 +11,14 @@ public class PoisonMatango extends Matango {
 		this.attackableTimes = 5;
 	}
 	
-	public void attack(Hero h) {
-		super.attack(h);
+	public void poisonAttack(Character c) {
+		super.attack(c);
 		if (this.attackableTimes > 0) {
 			System.out.println("さらに毒の胞子をばらまいた！");
-			h.hp -= (h.hp / 5);
-			System.out.println(h.hp / 5 + "ポイントのダメージ！");
+			c.setHp(c.getHp() / 5);
+			System.out.println(c.getHp() / 5 + "ポイントのダメージ！");
 			this.attackableTimes--;
 		}
-	}
-	
-	public void poisonAttack(Hero h) {
-		
 	}
 
 }

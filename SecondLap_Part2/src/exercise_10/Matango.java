@@ -1,5 +1,7 @@
 package exercise_10;
 
+import exercise_8.Character;
+
 public class Matango {
 	
 	int hp = 50;
@@ -9,10 +11,10 @@ public class Matango {
 		this.suffix = suffix;
 	}
 	
-	public void attack(Hero h) {
+	public void attack(Character c) {
 		System.out.println("キノコ" + this.suffix + "の攻撃");
 		System.out.println("10のダメージ");
-		h.hp -= 10;
+		c.setHp(c.getHp() - 10);
 	}
 
 }

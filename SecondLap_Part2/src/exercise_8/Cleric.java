@@ -18,6 +18,18 @@ public class Cleric extends Character {
 		System.out.println("HP：" + this.mp);
 	}
 	
+	public String getName() {
+		return this.name;
+	}
+	
+	public int getHp() {
+		return this.hp;
+	}
+	
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+	
 	public void selfAid() {
 		this.mp -= 5;
 		this.hp = MAX_HP;

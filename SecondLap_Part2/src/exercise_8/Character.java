@@ -10,5 +10,8 @@ public abstract class Character {
 	}
 	
 	public abstract void status();
+	public abstract String getName();
+	public abstract int getHp();
+	public abstract void setHp(int hp);
 
 }
