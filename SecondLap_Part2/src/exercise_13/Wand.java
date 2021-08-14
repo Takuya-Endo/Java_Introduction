@@ -2,7 +2,11 @@ package exercise_13;
 
 public class Wand {
 	
-	String name;
-	double power;
+	private String name;
+	private double power;
+	
+	public double getPower() {
+		return this.power;
+	}
 
 }
