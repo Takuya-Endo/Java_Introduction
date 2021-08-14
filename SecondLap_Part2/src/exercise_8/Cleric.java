@@ -1,16 +1,21 @@
 package exercise_8;
 
-public class Cleric {
-		
-	private String name;
-	private int hp;
+public class Cleric extends Character {
+
 	private final int MAX_HP = 50;
 	private int mp;
 	private final int MAX_MP = 10;
 	
-	public Cleric() {
+	public Cleric(String name) {
+		super(name);
 		this.hp = MAX_HP;
-		this.hp = MAX_HP;
+		this.mp = MAX_MP;
+	}
+	
+	public void status() {
+		System.out.println(this.name + "のステータス");
+		System.out.println("HP：" + this.hp);
+		System.out.println("HP：" + this.mp);
 	}
 	
 	public void selfAid() {
