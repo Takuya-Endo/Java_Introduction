@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction"/>
     <fullyQualifiedTypeName name="comment.Zenhan"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -10,4 +9,6 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="exercise_11.IntangibleAsset"/>
     <fullyQualifiedTypeName name="exercise_11.TangibleAsset"/>
+    <fullyQualifiedTypeName name="exercise_8.Character"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
