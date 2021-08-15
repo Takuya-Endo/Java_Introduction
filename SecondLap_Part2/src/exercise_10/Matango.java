@@ -13,7 +13,7 @@ public class Matango {
 	
 	public void attack(Character c) {
 		System.out.println("キノコ" + this.suffix + "の攻撃");
-		System.out.println("10のダメージ");
+		System.out.println(c.getName() + "に10のダメージ");
 		c.setHp(c.getHp() - 10);
 	}
 

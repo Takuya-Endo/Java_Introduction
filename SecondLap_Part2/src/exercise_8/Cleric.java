@@ -13,9 +13,13 @@ public class Cleric extends Character {
 	}
 	
 	public void status() {
+		System.out.println("");
+		System.out.println("―――――");
 		System.out.println(this.name + "のステータス");
 		System.out.println("HP：" + this.hp);
-		System.out.println("HP：" + this.mp);
+		System.out.println("MP：" + this.mp);
+		System.out.println("―――――");
+		System.out.println("");
 	}
 	
 	public String getName() {
@@ -31,6 +35,7 @@ public class Cleric extends Character {
 	}
 	
 	public void selfAid() {
+		System.out.println(this.name + "は“セルフエイド”を使った");
 		this.mp -= 5;
 		this.hp = MAX_HP;
 	}
