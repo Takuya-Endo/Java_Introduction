@@ -8,36 +8,24 @@ public class Cleric extends Character {
 	
 	public Cleric(String name) {
 		super(name);
-		this.hp = MAX_HP;
+		this.setHp(MAX_HP);
 		this.mp = MAX_MP;
 	}
 	
 	public void status() {
 		System.out.println("");
 		System.out.println("―――――");
-		System.out.println(this.name + "のステータス");
-		System.out.println("HP：" + this.hp);
+		System.out.println(this.getName() + "のステータス");
+		System.out.println("HP：" + this.getHp());
 		System.out.println("MP：" + this.mp);
 		System.out.println("―――――");
 		System.out.println("");
 	}
 	
-	public String getName() {
-		return this.name;
-	}
-	
-	public int getHp() {
-		return this.hp;
-	}
-	
-	public void setHp(int hp) {
-		this.hp = hp;
-	}
-	
 	public void selfAid() {
-		System.out.println(this.name + "は“セルフエイド”を使った");
+		System.out.println(this.getName() + "は“セルフエイド”を使った");
 		this.mp -= 5;
-		this.hp = MAX_HP;
+		this.setHp(MAX_HP);
 	}
 	
 	public int pray(int second) {
