@@ -7,12 +7,13 @@ public class Wizard extends Character {
 	private final int MAX_HP = 80;
 	private final int MAX_MP = 50;
 	private int mp;
-//	private Wand wand;
+	private Wand wand;
 	
 	public Wizard(String name) {
 		super(name);
 		this.setHp(MAX_HP);
 		this.mp = MAX_MP;
+		this.wand = new Wand();
 	}
 	
 	public void status() {
@@ -21,6 +22,7 @@ public class Wizard extends Character {
 		System.out.println(this.getName() + "のステータス");
 		System.out.println("HP：" + this.getHp());
 		System.out.println("MP：" + this.mp);
+		System.out.println("武器：" + wand.getName());
 		System.out.println("―――――");
 		System.out.println("");
 	}
