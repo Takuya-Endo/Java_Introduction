@@ -15,9 +15,10 @@ public class PoisonMatango extends Matango {
 		super.attack(c);
 		if (this.attackableTimes > 0) {
 			System.out.println("さらに毒の胞子をばらまいた！");
-			c.setHp(c.getHp() / 5);
-			System.out.println(c.getName() + "に" + c.getHp() / 5 + "ポイントのダメージ！");
+			int damage = c.getHp() / 5;
+			System.out.println(c.getName() + "に" + damage + "ポイントのダメージ！");
 			this.attackableTimes--;
+			c.setHp(c.getHp() - damage);
 		}
 	}
 

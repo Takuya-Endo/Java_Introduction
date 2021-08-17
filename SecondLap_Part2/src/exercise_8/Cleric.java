@@ -25,6 +25,11 @@ public class Cleric extends Character {
 		this.setHp(MAX_HP);
 	}
 	
+	public void prayRecover(int second) {
+		System.out.println(this.getName() + "は" + second + "秒間祈った");
+		this.mp += pray(second);
+	}
+	
 	public int pray(int second) {
 		int recoveredMp;
 		int point = second + new java.util.Random().nextInt(3);

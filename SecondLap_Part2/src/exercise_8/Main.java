@@ -20,6 +20,8 @@ public class Main {
 		characterStatus(characters);
 		cleric.selfAid();
 		characterStatus(characters);
+		cleric.prayRecover(5);
+		characterStatus(characters);
 		
 	}
 	
