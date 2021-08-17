@@ -13,13 +13,10 @@ public class Cleric extends Character {
 	}
 	
 	public void status() {
-		System.out.println("");
-		System.out.println("―――――");
 		System.out.println(this.getName() + "のステータス");
 		System.out.println("HP：" + this.getHp());
 		System.out.println("MP：" + this.mp);
 		System.out.println("―――――");
-		System.out.println("");
 	}
 	
 	public void selfAid() {

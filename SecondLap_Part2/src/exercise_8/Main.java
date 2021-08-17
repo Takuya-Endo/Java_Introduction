@@ -12,15 +12,24 @@ public class Main {
 		PoisonMatango poisonMatango = new PoisonMatango('B');
 		Cleric cleric = new Cleric("聖職者クレリック");
 		Wizard wizard = new Wizard("魔法使いウィザード");
+		Character[] characters = {cleric, wizard};
 		
-		cleric.status();
-		wizard.status();
+		characterStatus(characters);
 		matango.attack(cleric);
 		poisonMatango.poisonAttack(cleric);
-		cleric.status();
+		characterStatus(characters);
 		cleric.selfAid();
-		cleric.status();
+		characterStatus(characters);
 		
+	}
+	
+	public static void characterStatus(Character[] characters) {
+		System.out.println("");
+		System.out.println("―――――");
+		for (Character character : characters) {
+			character.status();
+		}
+		System.out.println("");
 	}
 
 }
