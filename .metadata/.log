@@ -8645,3 +8645,272 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.ui 2 2 2021-08-19 04:52:10.249
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:32:24.711
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.neePikkK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:32:24.731
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.neePikkK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:32:24.737
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:32:24.742
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.neePikkK => OK
+!SESSION 2021-08-19 05:34:48.701 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-08-19 05:35:05.098
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-19 05:35:05.098
+!MESSAGE CTRL+SHIFT+T の競合が発生しました:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b641c97,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f065f9e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:24.544
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:24.560
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@497598ed[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=1002)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:24.591
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:24.716
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-08-19 05:35:29.845
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-19 05:35:29.845
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,プロパティーの表示,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10683f87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a9ad451,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.177
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 10563ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.870
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BIefJHANisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.897
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.930
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.939
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.945
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.951
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BIefJHAN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:35.981
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.002
+!MESSAGE buffering callback sts4.classpath.BIefJHAN SecondLap_Part3 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.024
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.054
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.074
+!MESSAGE buffering callback sts4.classpath.BIefJHAN Part1 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.081
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.094
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.103
+!MESSAGE buffering callback sts4.classpath.BIefJHAN Part2 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.109
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.123
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.133
+!MESSAGE buffering callback sts4.classpath.BIefJHAN Part3 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.139
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.156
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.164
+!MESSAGE buffering callback sts4.classpath.BIefJHAN SecondLap_Part2 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:36.170
+!MESSAGE executing callback sts4.classpath.BIefJHAN 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:37.288
+!MESSAGE executing callback sts4.classpath.BIefJHAN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:38.895
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BIefJHAN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:38.917
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BIefJHAN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:38.922
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:35:38.929
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BIefJHAN => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-08-19 05:37:34.435
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-08-19 05:37:50.549 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-08-19 05:38:07.982
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-19 05:38:07.982
+!MESSAGE CTRL+SHIFT+T の競合が発生しました:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46c093b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ff00844,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:15.431
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:15.461
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@59742ccc[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=1002)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:15.493
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:15.615
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:24.448
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 8923ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:24.994
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EvGzxoJGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.017
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.038
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.057
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.063
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.069
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EvGzxoJG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.095
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.115
+!MESSAGE buffering callback sts4.classpath.EvGzxoJG SecondLap_Part3 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.135
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.156
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.174
+!MESSAGE buffering callback sts4.classpath.EvGzxoJG Part1 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.181
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.194
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.202
+!MESSAGE buffering callback sts4.classpath.EvGzxoJG Part2 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.208
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.221
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.229
+!MESSAGE buffering callback sts4.classpath.EvGzxoJG Part3 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.236
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.247
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.257
+!MESSAGE buffering callback sts4.classpath.EvGzxoJG SecondLap_Part2 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:25.262
+!MESSAGE executing callback sts4.classpath.EvGzxoJG 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-19 05:39:26.246
+!MESSAGE executing callback sts4.classpath.EvGzxoJG SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-08-19 05:48:35.376
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
