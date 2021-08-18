@@ -39,5 +39,13 @@ public class Wizard extends Character {
 			this.setName(name);
 		}
 	}
+	
+	public void setWizardHp(int hp) {
+		if (hp < 0) {
+			setHp(0);
+		} else {
+			setHp(hp);
+		}
+	}
 
 }

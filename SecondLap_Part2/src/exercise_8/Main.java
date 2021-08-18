@@ -14,7 +14,8 @@ public class Main {
 		Wizard wizard = new Wizard("魔法使いウィザード");
 		Character[] characters = {cleric, wizard};
 		
-		wizard.setWizardName("魔法t");
+//		wizard.setWizardName("魔法使");
+		wizard.setWizardHp(0);
 		
 		characterStatus(characters);
 		matango.attack(cleric);
