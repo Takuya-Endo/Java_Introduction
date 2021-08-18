@@ -30,5 +30,14 @@ public class Wizard extends Character {
 		c.setHp(c.getHp() + recoverPoint);
 		System.out.println(this.getName() + "は、" + c.getName() + "のHPを" + recoverPoint + "回復した！");
 	}
+	
+	public void setWizardName(String name) {
+		if (name.length() < 3) {
+			System.out.println("Wizardの名前は3文字以上");
+			throw new IllegalArgumentException();			
+		} else {
+			this.setName(name);
+		}
+	}
 
 }
