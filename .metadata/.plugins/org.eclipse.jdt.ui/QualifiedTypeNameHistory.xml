@@ -9,6 +9,8 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="exercise_11.IntangibleAsset"/>
     <fullyQualifiedTypeName name="exercise_11.TangibleAsset"/>
-    <fullyQualifiedTypeName name="exercise_8.Character"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="exercise_8.Character"/>
+    <fullyQualifiedTypeName name="exercise_13.Wizard"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>
