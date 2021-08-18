@@ -24,11 +24,11 @@ public class Wizard extends Character {
 		System.out.println("―――――");
 	}
 	
-//	void heal(Character c) {
-//		int basePoint = 10;
-//		int recoverPoint = (int) (basePoint * this.wand.getPower());
-//		c.setHp(c.getHp() + recoverPoint);
-//		System.out.println(c.getName() + "のHPを" + recoverPoint + "回復した！");
-//	}
+	public void heal(Character c) {
+		int basePoint = 10;
+		int recoverPoint = (int) (basePoint * this.wand.getPower());
+		c.setHp(c.getHp() + recoverPoint);
+		System.out.println(this.getName() + "は、" + c.getName() + "のHPを" + recoverPoint + "回復した！");
+	}
 
 }

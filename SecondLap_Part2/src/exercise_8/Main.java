@@ -22,6 +22,10 @@ public class Main {
 		characterStatus(characters);
 		cleric.prayRecover(5);
 		characterStatus(characters);
+		matango.attack(cleric);
+		characterStatus(characters);
+		wizard.heal(cleric);
+		characterStatus(characters);
 		
 	}
 	
