@@ -9,5 +9,9 @@ public class Account {
 		this.accountNumber = accountNumber;
 		this.balance = balance;
 	}
+	
+	public String toString() {
+		return "\\" + this.balance + "（口座番号：" +  this.accountNumber + "）";
+	}
 
 }
