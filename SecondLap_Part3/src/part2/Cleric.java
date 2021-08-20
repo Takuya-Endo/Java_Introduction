@@ -2,9 +2,9 @@ package part2;
 
 public class Cleric extends Character {
 
-	private final int MAX_HP = 50;
+	private static final int MAX_HP = 50;
 	private int mp;
-	private final int MAX_MP = 10;
+	private static final int MAX_MP = 10;
 	
 	public Cleric(String name) {
 		super(name);
