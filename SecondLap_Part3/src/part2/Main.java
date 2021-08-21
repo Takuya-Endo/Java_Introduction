@@ -1,5 +1,7 @@
 package part2;
 
+import java.util.Scanner;
+
 public class Main {
 	
 	public static void main(String[] args) {
@@ -26,6 +28,11 @@ public class Main {
 		wizard.heal(cleric);
 		characterStatus(characters);
 		
+		
+		System.out.println(chooseNumber());
+		
+//		System.out.println(chooseNumber());
+		
 	}
 	
 	public static void characterStatus(Character[] characters) {
@@ -35,6 +42,21 @@ public class Main {
 			character.status();
 		}
 		System.out.println("");
+	}
+	
+	public static String chooseNumber() {
+		
+		try (Scanner scanner = new Scanner(System.in);) {
+			System.out.println("数字を入力してください");
+			String number = scanner.next();
+			if (! (number.matches("[0-9]"))) {
+				throw new Exception("数字以外が入力されました");
+			}
+			return number;
+		} catch(Exception e) {
+			return e.getMessage();
+		}
+		
 	}
 	
 }
