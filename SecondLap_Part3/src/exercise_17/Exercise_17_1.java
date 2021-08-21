@@ -21,9 +21,20 @@ public class Exercise_17_1 {
 		
 		
 		String number = "三";
-		int i = Integer.parseInt(number);
+//		String number = "3";
 		
-		System.out.println(i);
+		try {
+			
+			int i = Integer.parseInt(number);
+			System.out.println("");
+			System.out.println(i);
+			
+		} catch (NumberFormatException e) {
+			
+			System.out.println("");
+			System.out.println(e.getMessage());
+			
+		}
 		
 	}
 
