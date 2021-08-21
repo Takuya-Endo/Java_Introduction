@@ -19,6 +19,12 @@ public class Exercise_17_1 {
 			
 		}
 		
+		
+		String number = "三";
+		int i = Integer.parseInt(number);
+		
+		System.out.println(i);
+		
 	}
 
 }
