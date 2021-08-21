@@ -8,7 +8,11 @@ public class Exersise_15_2 {
 //		String folder = "c:\\javadev";
 		String file = "readme.text";
 		
-		
+		if (folder.endsWith("\\")) {
+			System.out.println(folder + file);
+		} else {
+			System.out.println(folder + "\\" + file);
+		}
 		
 	}
 
