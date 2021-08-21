@@ -1,7 +1,10 @@
 package exercise_17;
 
+//import java.io.IOException;
+
 public class Exercise_17_1 {
 	
+//	public static void main(String[] args) throws IOException {
 	public static void main(String[] args) {
 		
 		String s = null;
@@ -35,6 +38,8 @@ public class Exercise_17_1 {
 			System.out.println(e.getMessage());
 			
 		}
+		
+//		throw new IOException();
 		
 	}
 
